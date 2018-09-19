@@ -1,0 +1,22 @@
+server:
+  port: 1002
+  context-path: /consumer
+
+spring:
+  profiles:
+    active: local
+  application:
+    name: consumer
+  zipkin:
+    base-url: http://127.0.0.1:1000
+  sleuth:
+    sampler:
+      #日志采样百分比
+      percentage: 1
+
+#logback日志
+logging:
+  config: classpath:config/logback/logback-local.xml
+
+producer:
+  url: http://127.0.0.1:1001/producer/api/sleuth/query/user/by/id

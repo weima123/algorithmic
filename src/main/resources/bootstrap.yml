@@ -1,0 +1,7 @@
+server:
+  port: 1000
+  context-path: /consumer
+
+spring:
+  application:
+    name: consumer
