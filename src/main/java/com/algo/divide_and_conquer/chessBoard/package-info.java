@@ -3,7 +3,7 @@
  * @description :
  * @since : 2018/9/18
  */
-package com.algo.divide_and_conquer;
+package com.algo.divide_and_conquer.chessBoard;
 /*
 一.棋盘覆盖问题思路
         1.思路一
@@ -21,3 +21,5 @@ package com.algo.divide_and_conquer;
         (4)直到子棋盘为1*1的正方形。
 
         */
+
+

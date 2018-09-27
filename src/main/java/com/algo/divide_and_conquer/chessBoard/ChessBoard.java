@@ -1,4 +1,4 @@
-package com.algo.divide_and_conquer;
+package com.algo.divide_and_conquer.chessBoard;
 
 /**
  * @author : mawei
