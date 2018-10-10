@@ -8,7 +8,7 @@ import com.algo.ArrayUtils;
  * 思路01：循环乘
  * @since : 2018/9/25
  */
-public class LargerIntegerMultip01 {
+public class LargerIntegerMultiply01 {
     public static final int MAX_LENGTH = 200;
     public static void main(String[] args) {
         int [] arrayA = {00,9,8,7,6,5,4,3,2,1};
