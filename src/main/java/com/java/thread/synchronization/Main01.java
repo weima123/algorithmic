@@ -1,6 +1,5 @@
 package com.java.thread.synchronization;
 
-import org.aspectj.weaver.bcel.AtAjAttributes;
 
 /**
  * @author : mawei
